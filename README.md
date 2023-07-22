@@ -1,5 +1,17 @@
 Question 3:
 
+//Function constructors
+
+1.Case: fun sqrt(determiant: Double): Double{
+
+            return determiant
+        }
+
+2.Case: fun sum(a:Int,b:Int):InT{
+       return a+b
+}
+3.Case: class Car(var color:String,var model:string){}
+
 
 
 Question 4:
@@ -9,6 +21,11 @@ Data class is a type of class that hold values. We can think that type of stack.
 
 
 Question 5:
+
+with fuction arrayOf() functin
+
+
+For Example: val  array:Int=arrayOf(1,2,4)
 
 Question 6:
 
@@ -50,6 +67,14 @@ fun main() {
    
 Output: Lana  Miera
 
+Question 8:
+
+It means variable also can be null.
+
+For Examle:
+
+data class(val a:Int?=null)
+
 Question 11:
 
 OnCreate()
@@ -63,6 +88,14 @@ Question 12:
 AndroidManifest is main important file in android which security and internet permisions,our activities, intent-filters are stored.
 
 Question 13:
+
+Help use passes the message between activities:#
+
+For Example: 
+
+val intent=Intent(this,NameOfActivities::class.java)
+startActivity(intent)
+
 
 Qusetion 14:
 
